@@ -6,11 +6,11 @@
     botOptionsWiz.logLevel = 'debug';
     botOptionsWiz.koreAPIUrl = "https://bots.kore.ai";
 
-    botOptionsWiz.JWTUrl = "PLEASE_ENTER_JWTURL_HERE";
-    botOptionsWiz.userIdentity = 'PLEASE_ENTER_USER_EMAIL_ID';// Provide users email id here
-    botOptionsWiz.botInfo = { name: "PLEASE_ENTER_BOT_NAME", "_id": "PLEASE_ENTER_BOT_ID" }; // bot name is case sensitive
-    botOptionsWiz.clientId = "PLEASE_ENTER_CLIENT_ID";
-    botOptionsWiz.clientSecret = "PLEASE_ENTER_CLIENT_SECRET";
+    botOptionsWiz.JWTUrl = "http://localhost:3000/";
+    botOptionsWiz.userIdentity = 'zuby.rao@csdental.com';// Provide users email id here
+    botOptionsWiz.botInfo = { name: "Meddie app", "_id": "st-208008dc-9418-5233-bf9c-696371412b58" }; // bot name is case sensitive
+    botOptionsWiz.clientId = "st-208008dc-9418-5233-bf9c-696371412b58";
+    botOptionsWiz.clientSecret = "WoSK8wYcEd0wX5/CXid0LdlhPqnTIyLGKWPc1TKqxr4=";
 
     var widgetsConfig = {
         botOptions: botOptionsWiz
